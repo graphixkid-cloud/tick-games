@@ -1,0 +1,19 @@
+/* Tick Games: shared style for /privacy and /support (draft, Nov 27 2026) */
+:root{ --bg:#05070B; --tile:#1A202E; --edge:rgba(255,255,255,.14); --ink:#F2F4F8; --ink-soft:#8FA0B8; --accent:#7FA9EA; }
+*{ box-sizing:border-box; }
+html{ -webkit-text-size-adjust:100%; text-size-adjust:100%; }
+body{ margin:0; background:var(--bg); color:var(--ink); font-family:'Manrope',system-ui,-apple-system,sans-serif; font-size:17px; line-height:1.6; }
+main{ max-width:65ch; margin:0 auto; padding:48px 20px 64px; }
+a{ color:var(--accent); }
+.wordmark{ font-family:'Baloo 2','Manrope',sans-serif; font-weight:800; font-size:28px; text-decoration:none;
+  background:linear-gradient(90deg,#8CCDEA,#7FA9EA); -webkit-background-clip:text; background-clip:text; color:transparent; }
+h1,h2,h3{ font-family:'Baloo 2','Manrope',sans-serif; line-height:1.2; text-wrap:balance; }
+h1{ font-size:36px; margin:28px 0 4px; }
+h2{ font-size:22px; margin:36px 0 8px; }
+h3{ font-size:18px; margin:24px 0 4px; }
+p,li{ text-wrap:pretty; }
+.updated{ color:var(--ink-soft); margin:0 0 24px; }
+.card{ background:var(--tile); border:1px solid var(--edge); border-radius:16px; padding:18px 20px; margin:20px 0; }
+ul{ padding-left:1.2em; }
+footer{ margin-top:56px; padding-top:20px; border-top:1px solid var(--edge); font-size:13px; color:var(--ink-soft); }
+footer p{ margin:4px 0; }
